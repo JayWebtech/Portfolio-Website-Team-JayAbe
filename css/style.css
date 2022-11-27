@@ -1,0 +1,71 @@
+@import url('https://fonts.cdnfonts.com/css/google-sans');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Product Sans', sans-serif;
+}
+#welcome{
+    background-color: #150734;
+    padding-top: 150px;
+}
+#welcome h1{
+    color: #fff;
+}
+#welcome span{
+    color: orange;
+}
+#welcome h2{
+    color: #fff;
+}
+#welcome p{
+    color: #fff;
+}
+#welcome button{
+    padding: 15px;
+    width: 150px;
+    margin-top: 30px;
+    background-color: orange;
+    border: none;
+    border-radius: 0px;
+}
+#welcome img{
+    width: 100%;
+}
+#project{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+#project h2{
+    text-align: center;
+    color: #150734;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+#project .card{
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#project .col-md-4{
+    margin-bottom: 30px;
+}
+#project .card-img-top {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+#contact{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background-color: #150734;
+    text-align: center;
+}
+#contact h1{
+    color: orange;
+}
+#contact h4{
+    color: #fff;
+}
+#contact a{
+    color: #fff;
+    text-decoration: none;
+}
